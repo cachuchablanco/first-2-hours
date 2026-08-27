@@ -1,53 +1,41 @@
 # First 2 Hours
 
-A ransomware tabletop for a small organization that does not have a SOC. Roles, comms, backups, and what you actually do before leadership panics.
+A ransomware tabletop for a shop that does not have a SOC. I wrote it because junior IR interviews still ask "what do you do in the first two hours?" and "I would find the malware family" is the wrong answer.
 
-No malware. No exploit steps. No encryptor. The incident is a prompt. The portfolio is the process.
+No malware in this repo. No exploit steps. The incident is a prompt. The portfolio is the process.
 
-**Author:** [cachuchablanco](https://github.com/cachuchablanco) · junior cybersecurity · IR / SOC / analyst roles
+I like jokes. I also like not making a clinic worse. If the joke and the decision fight, the decision wins.
 
-**Lab org:** Cedar Ridge Community Clinic (fictional nonprofit clinic, ~80 staff, one IT person)
+**Oscar Hernandez** · [GitHub](https://github.com/cachuchablanco) · [LinkedIn](https://www.linkedin.com/in/oscar-hernandez-34355210a)
 
-## Why this exists
+**Lab org:** Cedar Ridge Community Clinic (fictional, ~80 staff, one IT person). Not PUSD. Not real patients.
 
-Small clinics, schools, and nonprofits get hit and then freeze. Junior IR jobs still ask "what would you do in the first two hours?" This repo is a written answer you can run as a 90-minute tabletop, plus a sample after-action from a dry run.
+## Why I built this
 
-Pairs with [capsule-corp-phish-desk](https://github.com/cachuchablanco/capsule-corp-phish-desk) (email triage). That one is a ticket queue. This one is a room full of people.
+I came from financial services. People freeze when money or care is on the line. Small clinics, schools, and nonprofits get hit and then argue in a hallway. This is the hallway, on paper, before Monday at 07:40.
 
-## Skills this shows
-
-- Incident command for a shop with no 24/7 SOC
-- Who talks to whom (IT, clinical leadership, legal, insurance, patients)
-- Evidence-preserving containment vs "just pull the plug"
-- Backup reality checks (last known good, offline copy, restore test)
-- Decision logging a later investigator can use
-- After-action writing
+Pairs with [capsule-corp-phish-desk](https://github.com/cachuchablanco/capsule-corp-phish-desk). That one is an email queue. This one is a room.
 
 ## What's in here
 
-| File | What a hiring manager gets |
-|------|----------------------------|
-| [checklists/first-2-hours.md](checklists/first-2-hours.md) | Minute-by-minute job aid for the first 120 minutes |
-| [tabletop/roles.md](tabletop/roles.md) | Who is in the room and what they own |
-| [tabletop/facilitator-guide.md](tabletop/facilitator-guide.md) | How to run it in 90 minutes |
-| [tabletop/injects.md](tabletop/injects.md) | Timed prompts (discovery → patient impact → reporter) |
-| [tabletop/after-action-sample.md](tabletop/after-action-sample.md) | Completed AAR from a dry run of this scenario |
+| File | What you get |
+|------|----------------|
+| [checklists/first-2-hours.md](checklists/first-2-hours.md) | The actual job aid. Print it. |
+| [tabletop/roles.md](tabletop/roles.md) | Who talks. Who does not. |
+| [tabletop/facilitator-guide.md](tabletop/facilitator-guide.md) | How to run 90 minutes |
+| [tabletop/injects.md](tabletop/injects.md) | Timed prompts |
+| [tabletop/after-action-sample.md](tabletop/after-action-sample.md) | My dry-run writeup |
 
-## How to read this (about two minutes)
+## How to read this (two minutes)
 
 1. This README.
-2. The [first-2-hours checklist](checklists/first-2-hours.md). That is the actual job.
-3. Skim the [sample after-action](tabletop/after-action-sample.md) if you want to see judgment, not just a template.
+2. The [checklist](checklists/first-2-hours.md).
+3. The [sample after-action](tabletop/after-action-sample.md) if you want judgment, not a template.
 
 ## Scenario in one paragraph
 
-Monday 07:40. Front desk cannot open the scheduling system. A few workstations show a ransom note on the lock screen. EHR is slow, then unreachable. The one IT staffer is on site. There is a nightly backup to a NAS, and a weekly USB copy that "someone takes home." Nobody has restored it this year. No dedicated security team.
+Monday 07:40. Front desk cannot open scheduling. A few PCs show a note. EHR dies. One IT person. Nightly NAS backup. Weekly USB "someone takes home." Nobody restored it this year. Patients at the door.
 
 ## What this is not
 
-- Not a ransomware builder, decryptor, or malware analysis lab
-- Not a playbook for attacking anyone
-- Not legal, clinical, or insurance advice
-- Clinic, staff, and reporter names are fictional
-
-If you run this at a real org, swap in their names and their backup truth. The clock stays the same.
+Not a ransomware kit. Not legal advice. Not PUSD. Clinic names are fake. If you run this at a real org, swap their backup truth in. The clock stays the same.
