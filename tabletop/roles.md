@@ -1,20 +1,20 @@
 # Roles — Cedar Ridge Community Clinic
 
-Keep the room small. Extra people become an audience.
+Keep the room small. Extra people become an audience. Kakarot can watch. Kakarot does not take IC.
 
 | Seat | Lab name | Owns | Does not own |
 |------|----------|------|----------------|
-| Incident commander | IT Lead (only IT FTE) | Clock, log, containment calls, vendor/IR call | Whether the clinic stays open |
-| Clinic Director | Director | Care operations, staff message, money, insurance call | Unplugging servers without IC |
-| Charge Nurse | Charge RN | Paper fallback, patient flow, "can we treat" | Technical diagnosis |
-| Billing / HIM | Billing | What systems hold claims and records, downtime forms | Talking to press |
-| Comms (can be Director) | Director or designee | Internal note, later patient/press language | Technical promises ("we'll be up at noon") |
-| Cyber insurance / legal | On the phone | Counsel, retainers, notification questions | Hands on keyboards |
+| Incident commander | IT Lead (only IT FTE) | Clock, log, contain, vendor call | Whether the clinic stays open |
+| Clinic Director | Director | Care, staff message, money, insurance | Unplugging servers without IC |
+| Charge Nurse | Charge RN | Paper fallback, patient flow | Technical diagnosis |
+| Billing / HIM | Billing | What holds claims and records | Talking to press |
+| Comms | Director or designee | Internal note, later outside language | Promising "up at noon" |
+| Insurance / legal | On the phone | Counsel, retainers | Hands on keyboards |
 
-For a 90-minute tabletop you only need **four chairs**: IC, Director, Charge RN, Billing. Insurance can be a facilitator inject.
+Four chairs for a 90-minute run: IC, Director, Charge RN, Billing. Insurance can be a phone inject.
 
-## Rules for the room
+## Rules
 
-- One IC. If the Director and IT disagree on a technical contain step, IC explains once, Director can overrule **operations**, not physics.
-- No live systems. This is paper and talk.
-- If someone would "just Google a decryptor" in real life, the facilitator should let them say it, then ask what that does to evidence and to the backup.
+- One IC. Director can overrule **operations**, not physics.
+- No live systems. Paper and talk.
+- If someone says "I would just Google a decryptor," let them say it, then ask what that does to evidence and to the backup.
